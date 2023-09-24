@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #3f3d3d, #727272);
+    width: 100%;
+}
+
+header {
+    background-color:#000000;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid black;
+}
+
+
+
+.bar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigasi-bar {
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  
+  .navigasi-bar .bar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .navigasi-bar .bar .destination,
+  .option .menu-down .item-down {
+    color: rgb(255, 255, 255);
+    font-family: "comic sans ms";
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 18px;
+  }
+  
+  .navigasi-bar .bar .destination:hover,
+  .option .menu-down .item-down:hover {
+    background-color: #A1383C;
+  }
+  
+  .option {
+    position: relative;
+  }
+  
+  .option .menu-down {
+    display: none;
+    position: absolute;
+    background-color: #020202;
+  }
+  
+  .option:hover .menu-down {
+    display: block;
+  }
+  
+  .navigasi-bar .toggle {
+    display: none;
+  }
+
+
+/* video CSS */
+.video-content{
+    width: 100%;
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* Home-content */
+.slogan{
+    padding: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    font-family: "comic sans ms";
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.home-container,
+.home-container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-home p,
+.left-home-2 p {
+    text-align: justify;
+}
+
+h1,
+h2 {
+    text-align: center;
+    padding: 1%;
+    font-family: "comic sans ms";
+}
+
+.left-home img,
+.right-home-2 img {
+    width: 100%;
+}
+
+.right-home-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.left-home,
+.right-home-2 {
+    width: 50%;
+}
+
+.right-home {
+    width: 40%;
+    display: flex;
+    font-size: 18pt;
+    justify-content: center;
+}
+
+.left-home-2 {
+    width: 40%;
+    display: flex;
+    font-size: 18pt;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 10%;
+}
+
+/* Legends */
+.border-character {
+    padding: 50px 100px;
+}
+
+.card-character,.card-character2 {
+    width: 125vh;
+    height: auto;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+    border: 3px solid black;
+    background: white;
+    display: block;
+    margin-left: 40vh;
+}
+
+.card-character img
+{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+.info-character {
+    padding: 5px 30px 20px;
+}
+
+.info-character h3 {
+    font-family: "comic sans ms";
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.backstory {
+    text-align: justify;
+}
+.element{
+    padding: 0px 20px;
+}
+.flex{
+    display: flex;
+}
+.color-element{
+    color: red;
+    font-weight: bold;
+}
+.color-element1{
+    color: rgb(73, 194, 154);
+    font-weight: bold;
+}
+.color-element2{
+    color: rgb(151, 9, 170);
+    font-weight: bold;
+}
+.color-element3{
+    color: rgb(75, 178, 226);
+    font-weight: bold;
+}
+/* Footer */
+.footer {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+.backstory p{
+    font-size: 17px;
+    padding: 0px 20px;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+}
+
+.img1,
+.img2 {
+    padding: 0px 3px;
+}
+
+/* About Game */
+.about-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.about-container img{
+    width: 70%;
+    height: auto;
+}
+.text-about{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.title{
+    color:#000000;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "comic sans ms";
+    
+}
+.img-about{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* register */
+.container-register{
+    /* max-width: 530px; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-register{
+    display: flex;
+    justify-content: center;
+}
+form{
+    border-radius: 10px;
+    padding: 50px;
+    border: white 2px solid;
+    background-color: white;
+}
+
+.error-message{
+    color: red;
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 200px) {
+    /* Navigasi */
+    .navigasi-bar .toggle {
+        display: block;
+        padding: 20px;
+      }
+      .navigasi-bar .bar {
+        flex-direction: column;
+        display: none;
+      }
+      .option .menu-down {
+        position: relative;
+      }
+
+   
+    /* untuk home */ 
+    .home-container{
+        display:flex;
+        flex-direction: column;
+    }
+    .home-container-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .right-home,.left-home-2{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .right-home-2,.left-home{
+        padding: 0px;
+    }
+    .right-home p ,.left-home-2 p{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    /* Legends */
+    .card-character,.card-character2{
+        display: flex;
+    }
+    .border-character{
+        padding: 0px;
+    }
+    /* About Game */
+    .text-about{
+        font-size: 20px;
+    }
+   
+}
+
+  
+ 
+
+ 
